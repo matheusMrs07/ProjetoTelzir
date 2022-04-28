@@ -9,11 +9,9 @@ COPY package.json /doc
 
 RUN npm install
 
-RUN yarn sequelize db:seed:all
 
 COPY . /doc
 
-CMD ["npm", "seed"]
 CMD ["npm", "start"]
 
 
