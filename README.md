@@ -2,6 +2,21 @@
 
 This project was generated with [ReactJS](https://pt-br.reactjs.org/), [NodeJS](https://nodejs.org/en/), [mysql] and [docker](https://www.docker.com/).
 
+## Install DEpendencies
+
+### Server
+
+Run `cd .\server\`
+
+Run `npm install`
+
+### Client
+
+Run `cd .\client\`
+
+Run `npm install`
+
+
 ## Run with Docker
 
 Run `docker-compose build`
@@ -17,15 +32,11 @@ On `.\server\app\config\db.config.js`, update the database infos.
 
 Run `cd .\server\`
 
-Run `npm install`
-
 Run `npm start`
 
 ### Start Client
 
 Run `cd .\client\`
-
-Run `npm install`
 
 Run `npm start`
 
