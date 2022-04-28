@@ -9,7 +9,6 @@ COPY package.json /doc
 
 RUN npm install
 
-
 COPY . /doc
 
 CMD ["npm", "start"]
