@@ -46,7 +46,7 @@ Navigate to `http://localhost:3000/`
 
 Run `cd .\server\`
 
-Run `yarn sequelize seed:all`
+Run `yarn sequelize db:seed:all`
 
 
 ## Descricçao
